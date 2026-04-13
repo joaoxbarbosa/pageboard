@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PageBoard</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="pb-popup-container">
+        <div class="pb-header">
+            <img src="icon.png" alt="PageBoard" class="pb-logo">
+            <span class="pb-title">PageBoard</span>
+        </div>
+        <div class="pb-section">
+            <div class="pb-subtitle">Quick Settings</div>
+            <div class="pb-row">
+                <span>Enable on this site</span>
+                <label class="pb-switch">
+                    <input type="checkbox" id="enableSite">
+                    <span class="pb-slider"></span>
+                </label>
+            </div>
+        </div>
+        <div class="pb-section">
+            <div class="pb-subtitle">Color Palette</div>
+            <div class="pb-colors">
+                <button class="color-button" data-color="#ff4757" style="background:#ff4757"></button>
+                <button class="color-button" data-color="#1e90ff" style="background:#1e90ff"></button>
+                <button class="color-button" data-color="#00c853" style="background:#00c853"></button>
+                <button class="color-button" data-color="#a29bfe" style="background:#a29bfe"></button>
+                <button class="color-button" data-color="#ffb142" style="background:#ffb142"></button>
+                <button class="color-button" data-color="#f5f6fa" style="background:#f5f6fa"></button>
+                <button class="color-button" data-color="#ffd600" style="background:#ffd600"></button>
+                <button class="color-button" data-color="#ff69b4" style="background:#ff69b4"></button>
+                <button class="color-button" data-color="#222" style="background:#222"></button>
+            </div>
+        </div>
+        <div class="pb-section">
+            <button id="clearAll" class="pb-clear-btn">🗑️ Clear All</button>
+        </div>
+        <div class="pb-section">
+            <div class="pb-subtitle">Disable PageBoard</div>
+            <button id="disableSiteForever" class="pb-disable-btn">Turn off for this site forever</button>
+            <button id="disableSiteSession" class="pb-disable-btn">Turn off for this session</button>
+        </div>
+        <div class="pb-footer">
+            <span style="font-size:12px;color:#888;">Your ideas, anywhere</span>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
