@@ -8,9 +8,10 @@ Pageboard is a lightweight Chrome extension that overlays a drawing canvas on to
 
 ## Preview
 
-| | |
+| Toolbar | Draggable button |
 |:---:|:---:|
 | <img src="assets/img1.png" width="400"/> | <img src="assets/img2.png" width="400"/> |
+| Click the draggable button to open the full toolbar — pick your color, tool, and get drawing | A floating button lives on every page. Drag it anywhere on screen, then click it to open the toolbar |
 
 ---
 
