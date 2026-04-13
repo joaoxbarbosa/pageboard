@@ -8,8 +8,8 @@ Pageboard is a lightweight Chrome extension that overlays a drawing canvas on to
 
 ## Preview
 
-![Pageboard canvas](assets/img1.png)
-![Pageboard toolbar](assets/img2.png)
+<img src="assets/img1.png" width="600"/>
+<img src="assets/img2.png" width="600"/>
 
 ---
 
@@ -25,6 +25,7 @@ Pageboard puts the canvas where you already are.
 
 - **Google Slides** — draw directly over your presentation to sketch diagrams, mark up slide layouts, or plan edits before making them
 - **Websites & dashboards** — annotate data, circle things that need fixing, or sketch UI feedback in context
+- **Practice quizzes & problem sets** — circle answer choices, cross out wrong options, or annotate questions as you work through them — drawings stay anchored to the page as you scroll
 - **Video calls & screen shares** — draw attention to specific parts of the screen live
 - **Quick notes** — jot a formula, doodle a diagram, or map out a quick thought without opening another app
 - **Design review** — mark up Figma embeds, Notion pages, or any web-based design tool
@@ -37,6 +38,7 @@ Pageboard puts the canvas where you already are.
 - 🎨 Color picker and brush size controls
 - 🧹 Eraser and clear canvas options
 - 🔁 Toggle the canvas on/off without losing your drawing
+- 📌 Drawings scroll with the page — annotations stay anchored to the content you drew on
 - ⚡ Zero config — works immediately after install
 
 ---
@@ -56,7 +58,9 @@ The extension icon will appear in your toolbar. Click it to activate the drawing
 ## Limitations
 
 > **PDF files in Chrome are not supported.**
-> Chrome renders PDFs in a native viewer that does not allow content script injection, so the drawing canvas cannot be overlaid on `chrome-extension://` PDF viewer pages. As a workaround, download the PDF and open it in an external viewer, or use a web-based PDF viewer like Adobe Acrobat Online.
+> On PDFs, drawings do not scroll with the page content — annotations stay fixed to the viewport while the PDF moves beneath them. As a workaround, download the PDF and open it in an external viewer, or use a web-based PDF viewer like Adobe Acrobat Online or Chromium's own PDF annotator.
+>
+> On all regular websites, drawings scroll with the page as expected.
 
 ---
 
