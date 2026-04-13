@@ -6,7 +6,14 @@ Pageboard is a lightweight Chrome extension that overlays a drawing canvas on to
 
 ---
 
-## Why PageBoard?
+## Preview
+
+![Pageboard canvas](assets/img1.png)
+![Pageboard toolbar](assets/img2.png)
+
+---
+
+## Why Pageboard?
 
 Sometimes you just need to **draw something out**. Whether you're solving a layout problem on Google Slides, marking up a mockup, jotting a quick note during a meeting, or diagramming an idea mid-research — switching to a separate app breaks your flow.
 
@@ -55,7 +62,7 @@ The extension icon will appear in your toolbar. Click it to activate the drawing
 
 ## How It Works
 
-PageBoard injects a transparent `<canvas>` element over the current page using a Chrome content script. Mouse events are captured by the canvas while the toggle is active, and the underlying page remains fully intact beneath it. Toggling the extension off restores normal page interaction without clearing your drawing.
+Pageboard injects a transparent `<canvas>` element over the current page using a Chrome content script. Mouse events are captured by the canvas while the toggle is active, and the underlying page remains fully intact beneath it. Toggling the extension off restores normal page interaction without clearing your drawing.
 
 ---
 
