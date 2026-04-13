@@ -8,9 +8,9 @@ Pageboard is a lightweight Chrome extension that overlays a drawing canvas on to
 
 ## Preview
 
-<img src="assets/img1.png" width="500"/>
-
-<img src="assets/img2.png" width="500"/>
+| | |
+|:---:|:---:|
+| <img src="assets/img1.png" width="400"/> | <img src="assets/img2.png" width="400"/> |
 
 ---
 
